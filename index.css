@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(241, 233, 219);
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding-top: 20px;
+    
+}
+
+.container{
+    width: 80%;
+	height: 80px;
+	margin:auto;
+}
+
+.logo{
+    list-style: none;
+    display: inline;
+    float: inline-start;
+}
+
+.nav-list{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding-top: 9px;
+}
+
+.nav-list>li{
+    display: inline;
+}
+
+.nav-list>li>a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000;
+    padding-left: 70px;
+}
+
+.hero-img{
+    background-image: url(hello.png);
+    width: 100%;
+    height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.hero-text{
+    font-size: 2.5em;
+    padding-top: 10px;
+    padding-left: 250px;
+}
+
+.hero-text2{
+    font-size: 2.3em;
+    padding-left: 400px;
+}
+
+.hero-text3{
+    padding-top: 70px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.project-section{
+    width: 100%;
+    margin-top: 500px;
+    position: relative;
+}
+
+.bg-img{
+    background-image: url(ellipse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 900px;
+    margin-left: 650px;
+    margin-top: 300px;
+    position: relative;
+}
+
+.img1{
+    position: relative ;
+    width: 550px;
+    height: 400px;
+    right: 10px;
+    bottom: 250px;
+    
+    
+
+}
